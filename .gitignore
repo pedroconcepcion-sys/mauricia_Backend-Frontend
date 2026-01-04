@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python cache / venv
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Chroma / vector db local/prod (normalmente NO se versiona)
+chroma_db_local/
+chroma_db_prod/
+*.sqlite3
+*.bin
+
+# Node (por si aplica)
+node_modules/
+dist/
+build/
